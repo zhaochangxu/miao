@@ -28,6 +28,120 @@
 <marquee behavior="" direction="left">飘~~~~</marquee>
 <div><em>这几种强调</em>&nbsp&nbsp<strong>有什么</strong>&nbsp&nbsp<b>区别呢?</b>&nbsp&nbsp<u>这个呢</u>&nbsp&nbsp<i>这个呢?</i></div>
 <div>&lt;!-- 这段注释需要出现在页面里面 --&gt;</div>
+
+<p>html的注释怎么写?</p>
+<p>下面是一段javascript代码，最合适用何种标签表示呢？</p>
+<pre>
+    <code>function a(){
+        return 8
+        }
+    </code>
+</pre>
+<ul>
+    <li>
+        小学
+        <ol>
+            <li>
+                一年级
+                <ol>
+                    <li>
+                        上学期
+                    </li>
+                    <li>
+                        下学期
+                    </li>
+                </ol>
+            </li>
+            <li>二年级</li>
+            <li>三年级</li>
+        </ol>
+    </li>
+    <li>中学</li>
+    <li>大学</li>
+</ul>
+<hr>
+<dl>
+    <dt>班级</dt>
+    <dd>三年二班</dd>
+    <dt>老师</dt>
+    <dd>赵老师</dd>
+    <dd>钱老师</dd>
+    <dd>孙老师</dd>
+    <dt>学生</dt>
+    <dd>小赵</dd>
+    <dd>小王</dd>
+</dl>
+<hr>
+<h2><b>Google搜索</b></h2>
+<form target="_blank" action="https://www.google.com.hk/search">
+    <!--                            required属性代表必填-->
+    <input type="text" name="q" required>
+    <input type="hidden" name="ie" value="UTF-8">
+    <input type="hidden" name="sourceid" value="chrome">
+    <button>
+        在新窗口打开搜索结果
+    </button>
+</form>
+<hr>
+<p>个人信息调查表</p>
+<dl>
+    <dt>性别</dt>
+    <dd>
+        <label>
+            <input type="radio" name="gender" value="male">
+            男
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">
+            女
+        </label>
+    </dd>
+    <dt>年龄</dt>
+    <dd>
+        <select name="age">
+            <option hidden>请选择</option>
+            <optgroup label="少年">
+                <option value="1-6">1-6岁</option>
+                <option value="1-6">1-6岁</option>
+            </optgroup>
+            <optgroup label="青年">
+                <option value="1-6">1-6岁</option>
+                <option value="1-6">1-6岁</option>
+            </optgroup>
+            <optgroup label="壮年">
+                <option value="1-6">1-6岁</option>
+                <option value="1-6">1-6岁</option>
+            </optgroup>
+        </select>
+    </dd>
+    <dt>生日</dt>
+    <dd><input type="date" name="birthday"></dd>
+    <dt>生辰</dt>
+    <dd><input type="time" name="birthtime"></dd>
+    <dt>照片</dt>
+    <dd>
+    <label>
+        <input type="file" name="avatar" hidden>
+        点我传照片，别点别人
+    </label>
+    </dd>
+    <dt>肤色</dt>
+    <dd><input type="color" name="color"></dd>
+    <dt>自我介绍</dt>
+    <dd>
+        <textarea name="introduce" cols="30" rows="10" placeholder="点击上传自己我介绍~"></textarea>
+    </dd>
+</dl>
+<fieldset disabled>
+    <legend>这里面的都已被禁用</legend>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <input type="text">
+</fieldset>
+<button>提交</button>
+<button type="reset">重置</button>
+
 <div id="buttom">底部底部底部</div>
 </body>
 </html>
