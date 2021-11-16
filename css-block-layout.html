@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .first-line {
+            background-color: #000;
+            color: white;
+            width: 100%;
+        }
+
+        .title {
+            width: 600px;
+            margin: 0 auto;
+        }
+
+        .box {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .pink-box {
+            box-sizing: border-box;
+            float: left;
+            background-color: rgb(255, 192, 203);
+            width: 180px;
+            height: 40px;
+            margin: 15px 30px 0 0;
+            border: 3px solid;
+            text-align: center;
+        }
+
+        .pink-box-l {
+            box-sizing: border-box;
+            float: left;
+            background-color: rgb(255, 192, 203);
+            width: 180px;
+            height: 40px;
+            margin: 15px 0 0 0;
+            border: 3px solid;
+            text-align: center;
+        }
+
+        .pink-box:hover {
+            background-color: red;
+        }
+
+        .link {
+            border-bottom: 1px black dotted;
+        }
+
+        .last-line {
+            background-color: rgb(238, 138, 238);
+        }
+
+        .last-line-words {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="first-line">
+    <p class="title">hello world 请调整浏览器窗口大小查看效果</p>
+</div>
+<div class="box">
+    <div class="second-line">
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+        页面主体 宽度600px 页面主体 宽度600px
+    </div>
+    <div style="height:235px">
+        <div class="pink-box">宽180高40(包含边框)</div>
+        <div class="pink-box">产品</div>
+        <div class="pink-box-l">产品</div>
+        <div class="pink-box">水平间隙30px</div>
+        <div class="pink-box">产品</div>
+        <div class="pink-box-l">产品</div>
+        <div class="pink-box">垂直间隙15px</div>
+        <div class="pink-box">产品</div>
+        <div class="pink-box-l">产品</div>
+        <div class="pink-box">边框宽度3px</div>
+        <div class="pink-box">产品</div>
+        <div class="pink-box-l">产品</div>
+    </div>
+    <div class="link">link</div>
+    <div class="link">link</div>
+    <div class="link">link</div>
+    <div class="link">link</div>
+    <div class="link" style="border-bottom: transparent">link</div>
+</div>
+<div class="last-line">
+    <div class="last-line-words">
+        ©版权所有 <br>
+        本页所有布局均使用块元素
+    </div>
+</div>
+</body>
+</html>

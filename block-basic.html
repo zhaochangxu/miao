@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    .first-line{
+        background-color:red;
+        margin:20px;
+    }
+    .aaaaa {
+        width: 600px;
+        margin: 0 auto;
+        /*background-color: black;*/
+    }
+    .box{
+        border: 1px solid;
+        width: 600px;
+        margin: 20px auto;
+        box-sizing: border-box;             /*边框及内填充的长度不再影响块的固定长宽*/
+    }
+    .box-up,.box-bottom{
+        height: 90px;
+        overflow-y: scroll;
+        margin: 33px 13px;
+    }
+    .box-middle{
+        margin: 10px;
+        background-color: rgb(238,130,238);
+        height: 50px;
+    }
+    .box-middle:hover{
+        margin: 0 auto;
+    }
+    .sec{
+        border: 50px solid red;
+        width: 0;
+        margin: 0 auto;
+        border-color: transparent transparent orange transparent;
+        /*border-color可以把纤体哦分为四个三角形区域，上 右 下 左，每个区域有一种颜色，如果把其他三个区域设定成透明色，就制作出来一个三角形
+        border-color:：[ border-top-color ] || [ border-right-color ] || [
+        border-bottom-color ] || [ border-left-color ] 上 右 下 左
+————————————————
+        版权声明：本文为CSDN博主「桃花岛主70」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+        原文链接：https://blog.csdn.net/qq_18089765/article/details/113872331*/
+    }
+    </style>
+</head>
+<body>
+    <div class="first-line">
+        <div class="aaaaa">
+            aaaaa
+        </div>
+    </div>
+    <div class="box">
+        <p class="box-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex fuga nam qui totam.
+            A ab aut, corporis eligendi est itaque molestias nam nihil nisi nulla, odit placeat quae sed vel?
+        </p>
+        <div class="box-middle"></div>
+        <p class="box-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Autem cumque dignissimos earum, enim incidunt laboriosam laudantium libero nesciunt obcaecati,
+            omnis pariatur perferendis, quasi quo reprehenderit tempora totam vel voluptatem voluptatibus.
+        </p>
+    </div>
+    <section class="sec"></section>
+</body>
+</html>
