@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="2">
     <title>Title</title>
     <style>
         * {
@@ -20,28 +21,29 @@
         }
 
         .box {
-            max-width: 600px;
+            width: 600px;
             margin: 20px auto;
         }
 
         .pink-box {
             box-sizing: border-box;
-            float: left;
+            display: inline-block;
             background-color: rgb(255, 192, 203);
             width: 180px;
             height: 40px;
-            margin: 15px 30px 0 0;
+            margin: 10px 15px 0 0;
             border: 3px solid;
             text-align: center;
+            overflow: hidden;
         }
 
         .pink-box-l {
             box-sizing: border-box;
-            float: left;
+            display: inline-block;
             background-color: rgb(255, 192, 203);
             width: 180px;
             height: 40px;
-            margin: 15px 0 0 0;
+            margin: 10px 0 0 0;
             border: 3px solid;
             text-align: center;
         }
@@ -79,19 +81,19 @@
         页面主体 宽度600px 页面主体 宽度600px
         页面主体 宽度600px 页面主体 宽度600px
     </div>
-    <div style="height:235px">
+    <div>
         <div class="pink-box">宽180高40(包含边框)</div>
         <div class="pink-box">产品</div>
-        <div class="pink-box-l">产品</div>
+        <div class="pink-box">产品</div>
         <div class="pink-box">水平间隙30px</div>
         <div class="pink-box">产品</div>
-        <div class="pink-box-l">产品</div>
+        <div class="pink-box">产品</div>
         <div class="pink-box">垂直间隙15px</div>
         <div class="pink-box">产品</div>
-        <div class="pink-box-l">产品</div>
+        <div class="pink-box">产品</div>
         <div class="pink-box">边框宽度3px</div>
         <div class="pink-box">产品</div>
-        <div class="pink-box-l">产品</div>
+        <div class="pink-box">产品</div>
     </div>
     <div class="link">link</div>
     <div class="link">link</div>
