@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        label{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-image: url(./web_heart_animation.png);
+            transition: none;
+            border: 1px solid;
+        }
+        input:checked + label{
+            transition: 1s steps(28);
+            background-position: -2800px 0;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="btn" hidden>
+    <label for="btn"></label>                            <!--label为行内元素无法设置宽高-->
+</body>
+</html>
