@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            /*width: 300px;*/
+            /*height: 300px;*/
+            /*line-height: 300px;*/
+            /*border: 1px solid;*/                      /*行内元素转换为行内块给宽高属性设置居中*/
+            /*font-size: 0;*/
+            /*margin: auto;*/
+            /*text-align: center;*/
+
+            width: 300px;
+            height: 300px;                              /*给元素定位，上下左右都为0，margin=auto设置居中*/
+            position: relative;
+            border: 1px solid;
+        }
+
+        img {
+            /*vertical-align: middle;*/
+            /*display: inline-block;*/
+            /*max-width: 100%;*/                        /*行内元素转换为行内块给宽高属性设置居中*/
+            /*max-height: 100%;*/
+
+            position: absolute;
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;                           /*给元素定位，上下左右都为0，margin=auto设置居中*/
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com
+        %2Fuploads%2Fblog%2F201403%2F29%2F20140329145413_hw4HA.thumb.1000_0.jpeg
+        &refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0
+        &g=0n&fmt=jpeg?sec=1640315059&t=a4ab3f900c59dc72157f2525a3e7b558" alt="">
+    </div>  
+    <div>
+        <img src="https://inews.gtimg.com/newsapp_bt/0/0924145258587_5505/0" alt="">
+    </div>
+    <div>
+        <img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.hiart.cn
+        %2Fupload%2Fphoto_db%2F2014%2F03%2F18%2F201403181333013367%2F201403181333013367_720_540.jpg
+        &refer=http%3A%2F%2Fwww.hiart.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg
+        ?sec=1640315132&t=d4e635f039a1f75fb6c5ed8c22000e51" alt="">
+    </div>
+</body>
+</html>
